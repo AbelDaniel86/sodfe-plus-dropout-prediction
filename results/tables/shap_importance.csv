@@ -1,0 +1,21 @@
+,mean_abs_shap
+overall_approval_rate,0.95474994
+fail_count_s2,0.8529848
+fail_count_s1,0.36404654
+approval_rate_s2,0.35119325
+financial_risk,0.3375507
+outlier_score,0.3265172
+Admission grade,0.31119227
+Curricular units 2nd sem (approved),0.2938897
+Curricular units 2nd sem (grade),0.24665919
+Scholarship holder,0.23680408
+Age at enrollment,0.22157614
+Tuition fees up to date,0.20568247
+Previous qualification (grade),0.20350862
+eval_pass_rate_s2,0.20223972
+Unemployment rate,0.17500481
+total_approved,0.15657672
+approval_rate_s1,0.15020695
+Application order,0.13328159
+Course_9853,0.11449253
+Mother's occupation_9,0.080363885

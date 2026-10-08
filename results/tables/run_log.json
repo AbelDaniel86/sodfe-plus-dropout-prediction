@@ -1,0 +1,55 @@
+{
+  "raw_shape": [
+    4424,
+    37
+  ],
+  "missing_cells": 0,
+  "duplicate_rows": 0,
+  "target_counts_raw": {
+    "Graduate": 2209,
+    "Dropout": 1421,
+    "Enrolled": 794
+  },
+  "consistency_checks": {
+    "1st: approved > enrolled": 0,
+    "1st: approved>0 but grade==0": 0,
+    "1st: enrolled==0 (no activity)": 152,
+    "2nd: approved > enrolled": 0,
+    "2nd: approved>0 but grade==0": 0,
+    "2nd: enrolled==0 (no activity)": 152,
+    "age < 17": 0,
+    "admission grade outside 0-200": 0
+  },
+  "clean_shape": [
+    3630,
+    37
+  ],
+  "course_names": true,
+  "iqr_outliers_per_feature": {
+    "Previous qualification (grade)": 146,
+    "Admission grade": 71,
+    "Age at enrollment": 389,
+    "Curricular units 1st sem (grade)": 652,
+    "Curricular units 2nd sem (grade)": 803,
+    "Unemployment rate": 0,
+    "Inflation rate": 0,
+    "GDP": 0
+  },
+  "outlier_overlap": {
+    "IQR any-feature": 1169,
+    "IsolationForest 5%": 182,
+    "both": 101,
+    "IF only (multivariate)": 81
+  },
+  "n_raw_features": 36,
+  "n_engineered_features": 56,
+  "runtime_sec": 450,
+  "holdout": {
+    "Accuracy": 0.8966942148760331,
+    "F1": 0.8663101604278075,
+    "Recall": 0.8556338028169014,
+    "Precision": 0.8772563176895307,
+    "BalAcc": 0.8893553629469122,
+    "AUC": 0.9485055127142948
+  }
+}
